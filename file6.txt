@@ -1,1 +1,140 @@
-created in branch master
+ git status
+    2  cd C>
+    3  di
+    4  dir
+    5  cd c:
+    6  cd C:gitsamples/
+    7  git staus
+    8  git status
+    9  ls
+   10  git status
+   11  git add fileAk2
+   12  git add fileAk2.txt
+   13  git rm fileak2.txt
+   14  --diff fileak1
+   15  --diff fileak1.txt
+   16  vi fileak2.txt
+   17  git status
+   18  git diff fileak.txt
+   19  git diff fileak2.txt
+   20  git add .
+   21  git --diff
+   22  git diff fileak2.txt
+   23  gitdiff --staged fileak2.txt
+   24  git status
+   25  git commit -m "new requirement"
+   26  git status
+   27  git log
+   28  git diff --cached fileAk1.txt
+   29  git cat fileAk1.txt
+   30  cat fileAk1.txt
+   31  vi fileAk1.txt
+   32  git log --oneline
+   33  cat fileak2.txt
+   34  vi fileak2.txt
+   35  cat fileak2.txt
+   36  git checkout fileak2.txt
+   37  cat fileak2.txt
+   38  git checkout fileak2.txt
+   39  git add fileak2.txt
+   40  git status
+   41  git add .
+   42  git status
+   43  git checkout fileak2.txt
+   44  git checkout Fileak2.txt
+   45  cat Fileak2.txt'
+   46  cat Fileak2.txt
+   47  cls
+   48  vi .gitignore
+   49  git status
+   50  :wq
+   51  xit
+   52  exit
+   53  cd c:
+   54  cd c:
+   55  cd c:gitsamples/
+   56  git staus
+   57  git status
+   58  git status
+   59  git add .
+   60  chit commit -m "updated files"
+   61  git commit -m "updated files"
+   62  git log --oneliner
+   63  git log --oneline
+   64  git log
+   65  cls
+   66  vi .gitignore
+   67  git status
+   68  git commit -m "added .gitignore file"
+   69  vi file1.txt
+   70  git status
+   71  cat .gitignore
+   72  cat .gitignore
+   73  ls
+   74  vi file1.txt
+   75  git status
+   76  git status
+   77  git rm -gitignore
+   78  git status
+   79  git commit -a -m "removed .gitignore file"
+   80  git status
+   81  vi file3.txt
+   82  vi file4.txt
+   83  git statsh
+   84  git stash
+   85  git status
+   86  ls
+   87  git ls
+   88  git ls-files
+   89  git add .
+   90  git ls-files
+   91  vi file3.txt
+   92  vi file4.txt
+   93  git stash
+   94  cat file3.txt
+   95  ls
+   96  git ls-files
+   97  git log
+   98  git log --oneline
+   99  git show
+  100  git status
+  101  git stash pop
+  102  git commit -a -m "updated file3 and file4"
+  103  git checkout -b branch2
+  104  vi file5.txt
+  105  git commit -a -m "branch2 created and file5.txt added"
+  106  git add .
+  107  git commit -a -m "branch2 created and file5.txt added"
+  108  git status
+  109  git log --oneline
+  110  git checkout master
+  111  git log --oneline
+  112  git checkout branch2
+  113  git ls-files
+  114  git checkout master
+  115  ls-files
+  116  git ls-files
+  117  git checkout branch2
+  118  git ls-files
+  119  ls
+  120  history
+  121  git status
+  122  git branch
+  123  ls-files
+  124  git ls-files
+  125  git checkout master
+  126  vi file6.txt
+  127  git status
+  128  git add .
+  129  git commit -m "Updated file6.txt in master branch"
+  130  git merge branch2
+  131  git log --oneline
+  132  git ls-files
+  133  git status
+  134  ls
+  135  git branch
+  136  git remote add origin https://github.com/Aksashdev/gitsamples.git
+  137  git push -u origin main
+  138  git push -u origin master
+  139  git branch
+  140  git push origin b
