@@ -1,0 +1,2 @@
+bugfix added
+this line will be added before stash
