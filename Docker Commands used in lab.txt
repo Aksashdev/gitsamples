@@ -1,0 +1,200 @@
+    1  sudo systemctl enable --now sshd
+    2  sudo firewall-cmd --permanent --add-service=ssh
+    3  hostname master
+    4  history 
+    5  sudo dnf install epel-release -y
+    6  sudo dnf install xrdp -y
+    7  sudo systemctl enable --now xrdp
+    8  sudo systemctl status xrdp
+    9  sudo firewall-cmd --permanent --add-port=3389/tcp
+   10  sudo firewall-cmd --reload
+   11  sudo dnf update -y
+   12  hostname node
+   13  hostname node1
+   14  who am i
+   15  hostname node1
+   16  lsblk
+   17  taskmgr
+   18  systemctl status jenkins
+   19  git status
+   20  ls
+   21  dir
+   22  git /version
+   23  git -version
+   24  git -v
+   25  mkdir linuxlab1
+   26  cd linuxlab1/
+   27  git init
+   28  git status
+   29  touch readme.txt
+   30  git status
+   31  git add readme.txt
+   32  git status
+   33  git commit -m "created readme.txt file"
+   34  git status
+   35  git config --global user.email "raybanakash@gmail.com"
+   36  git config --global user.name "Akash"
+   37  git status
+   38  git commit -m "created readme.txt file"
+   39  git status
+   40  git remote add origin git@github.com:Aksashdev/linuxlab1.git
+   41  git branch -M main
+   42  git push -u origin main
+   43  ssh -keygen -t rsa -b 4096
+   44  ssh-keygen -t rsa -b 4096
+   45  cat /root/.ssh/id_rsa.pub
+   46  git push -u origin main
+   47  git status
+   48  vi readme.txt
+   49  git status
+   50  git add readme.txt
+   51  git status
+   52  git push origin main
+   53  git commit-m "updated readme file with link"
+   54  git push origin main
+   55  git status
+   56  vi readme.txt
+   57  git commit-m "updated readme file with link"
+   58  git commit -m "updated readme file with link"
+   59  git status
+   60  git push origin main
+   61  git history
+   62  history
+   63  git status
+   64  apt install maven -y
+   65  dvn install maven -y
+   66  apt install maven -y
+   67  dnf install maven -y
+   68  git status
+   69  cd ..
+   70  git clone https://github.com/Aksashdev/java11-examples.git
+   71  git status
+   72  cd linuxlab1/
+   73  cd ..
+   74  dnf install cowsay
+   75  cosway
+   76  cosway //help
+   77  cosway --help
+   78  cosway
+   79  dnf install cowsay -y
+   80  cosway i
+   81   cowsay hi
+   82  sudo ln -s  /usr/share/cowsay/cows/default.cow  /usr/share/cowsay/cows/small.cow
+   83  cd /var/lib/jenkins/
+   84  ls
+   85  cd workspace/
+   86  ls
+   87  cd ..
+   88  c>
+   89  ls
+   90  cd root
+   91  ls
+   92  cd /petstorewebapp
+   93  cd petstorewebapp
+   94  cd petStoreWebApp
+   95  cd PetStoreWebApp
+   96  dir
+   97  git status
+   98  git add .
+   99  git add.
+  100  git add src
+  101  git add .
+  102  git add -a
+  103  git add -A
+  104  git status
+  105  git log
+  106  docker pull centos-8
+  107  docker search centos
+  108  docker pull centos
+  109  docker pull dokker
+  110  docker pull dokken
+  111  docker pull dokken/centos-8
+  112  docker images
+  113  docker run -dit --name centos dokken/centos-8 bash
+  114  docker ps
+  115      docker ps --nam
+  116  docker ps --nam
+  117  docker ps --name
+  118      docker ps --nam
+  119  docker exec -it centos ip addr
+  120  docker ps
+  121  docker exec -it centos ps
+  122  docker ps
+  123  docker ps -a
+  124  docker inspect centos
+  125  docker exec -it centos ip address
+  126  docker run -dit --name centos1 dokken/centos-8 bash
+  127  docker ps
+  128  docker exec -it centos1 ip address
+  129  docker exec -it centos ip address
+  130  docker images
+  131  docker pull dabian>stable
+  132  docker pull dabian:stable
+  133  pwd
+  134  mkdir doclab
+  135  cd doclab
+  136  vi dockerfile
+  137  docker build -t mydeb .
+  138  docker images
+  139  docker inspect mydb
+  140  docker inspect 58d6bdb9c7b9
+  141  docker run -dit --name testweb mydeb
+  142  docker ps
+  143   docker exec -it testweb ls /var/www/html
+  144  cat dockerfile
+  145  docker run -dit --name testdabian debian:stable
+  146  docker pull debian:stable
+  147  docker run -dit --name testdabian debian:stable
+  148  docker ps
+  149   docker exec -it testdabian ls /var/www/html
+  150   docker exec -it testweb ls /var/www/html
+  151  docker pull hello/world
+  152  docker pull hello-orld
+  153  docker pull hello-world
+  154  cd ..
+  155  pwd
+  156  docker pull ubuntu:latest
+  157  docker run -dit --name addcopy ubuntu:latest
+  158  docker ps
+  159  docker exec -it addcopy ls /app
+  160  touch file.txt
+  161  vi dockerfileadd
+  162  docker build -t ubuntuimage -f dockerfileadd  .
+  163  docker exec -it ubuntuimage ls /app
+  164  docker run -dit --name addcopytest ubuntuimage
+  165  docker exec -it addcopytest ls /app
+  166  docker ps
+  167  docker run -dit --name addcopytest ubuntuimage
+  168  docker run --name addcopytest ubuntuimage
+  169  docker run -d --name addcopytest ubuntuimage
+  170  docker run -d --name addcopytest1 ubuntuimage
+  171  docker ps
+  172  docker ps -a
+  173  touch date.sh
+  174  vi date.sh
+  175  ./date.sh
+  176  run ./date.sh 
+  177  chmod777 date.sh
+  178  chmod 777 date.sh
+  179  chmod 777 date.sh i am akash
+  180  chmod 777 date.sh
+  181  cat date.sh
+  182  chmod 777 date.sh
+  183  vi date.sh
+  184  chmod 777 date.sh
+  185  vi date.sh
+  186  chmod 777 date.sh
+  187  vi date.sh
+  188  chmod 777 date.sh
+  189  vi dockercmd
+  190  docker build -t cmdtest -f dockercmd .
+  191  docker run cmdtest
+  192  chmod 777 date.sh
+  193  cat date.sh
+  194  run chmore 777 date.sh
+  195  sh date.sh
+  196  sh date.sh i am akash
+  197  sh date.sh i am with rushi
+  198  cat dahte.sh
+  199  cat date.sh
+  200  history
